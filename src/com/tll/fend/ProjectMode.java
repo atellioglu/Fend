@@ -1,4 +1,4 @@
-package org.fend;
+package com.tll.fend;
 
 public enum ProjectMode {
 	DEVELOPMENT,

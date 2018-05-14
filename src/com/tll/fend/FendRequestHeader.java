@@ -1,4 +1,4 @@
-package org.fend;
+package com.tll.fend;
 
 public class FendRequestHeader {
 	private boolean required = true;

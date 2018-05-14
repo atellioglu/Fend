@@ -52,13 +52,13 @@ At last, you should provide an EndPoint URL for Fend. <br/>
 * **5** - If project mode set **PRODUCTION**, an exception will thrown.\
 * **6** - If we are not in development mode, we should hide this endpoint URL.
 
-##Extras
-###Configuration extra options
+## Extras
+### Configuration extra options
 ```
 fend.setCacheable(boolean);//should generate json text every time, or cache it after first usage.
 fend.scanAsync();//Normally whenever you enter the url specified for fend, json will be generated. If you use this method, scanning and generating start asnyc.
 ```
-###EndPoint extra options
+### EndPoint extra options
 ```
 //If you want to disable any method to display on Fend URL you should add **@DisableFendEndPoint** annotation to it.
 @DisableFendEndPoint
